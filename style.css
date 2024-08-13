@@ -2,7 +2,7 @@
         font-family: 'Miama';
         font-style: italic;
         font-weight: 400;
-        src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+        src: local('Miama'), url('https://fonts.cdnfonts.com/css/miama');
 }
 .font-style{
         font-family: 'Miama';
@@ -77,5 +77,15 @@
 .get-body{
         border: 1px solid black;
         width: 600px;
-        color: ;
+}
+.get-body-text{
+        color:rgba(255, 255, 255, 1) ;
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 135px;
+}
+.get-body-shape{
+        font-size:  58px;
+        font-weight: 400;
+        
 }
