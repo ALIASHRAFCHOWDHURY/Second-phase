@@ -10,4 +10,72 @@
         font-weight: 300;
         src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
 }
-    
+.inter-font-one{
+        font-family: "Inter", sans-serif;
+        font-style: italic;
+        font-optical-sizing: 36px;
+        font-weight: 800;
+      }
+.inter-font-two{
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-optical-sizing: 36px;
+        font-weight: 800;
+}
+/* shared style */
+.display-flex{
+        display: flex;
+} 
+.text-color-one{
+        color: rgba(255, 255, 255, 1);
+} 
+.text-color-two{
+        color: rgba(255, 255, 255, 0.65);
+} 
+
+/* header first section */
+.nav-bar{
+        background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+}
+.fit{
+        color: rgba(230, 83, 60, 1);
+}
+.header-title{
+        justify-content: center;
+}
+.nav-item{
+        justify-content: space-between;
+        width: 1060px;
+}
+.nav-links{
+        list-style: none;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        width: 350px;
+        padding: 10px 0px ;
+        justify-content: center;
+        align-items: center;
+        
+}
+.nav-link{
+        text-decoration: none;
+        margin-right:30px ;
+        color: rgba(255, 255, 255, 1);
+        /* color: rgba(255, 255, 255, 1); */
+}
+.nav-link-home{
+        border: 0px solid black;
+        padding: 10px 26px;
+        border-radius: 20px ;
+        color:rgba(255, 255, 255, 1);
+        background-color: rgba(230, 83, 60, 1);
+}
+.menu-bar{
+        visibility: hidden;
+}
+/* header second section */
+.get-body{
+        border: 1px solid black;
+        width: 600px;
+        color: ;
+}
