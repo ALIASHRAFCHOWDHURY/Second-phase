@@ -1,0 +1,13 @@
+.font-style-italic{
+        font-family: 'Miama';
+        font-style: italic;
+        font-weight: 400;
+        src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+.font-style{
+        font-family: 'Miama';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama.woff') format('woff');
+}
+    
