@@ -48,7 +48,9 @@
 
 /* header first section */
 .nav-bar{
-        background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0.8) 0%, rgba(3, 3, 3, 0.3) 100%);;
+        height: 665px;
+
 }
 .fit{
         color: rgba(230, 83, 60, 1);
@@ -61,6 +63,8 @@
 .nav-item{
         justify-content: space-between;
         width: 1060px;
+        
+        
 }
 .nav-links{
         list-style: none;
@@ -104,7 +108,7 @@
         color:rgba(255, 255, 255, 1) ;
         font-weight: 900;
         font-size: 58px;
-        line-height: 135px;
+        line-height: 90px;
 }
 .get-body-shape{
         font-size:  58px;
@@ -112,16 +116,17 @@
         
 }
 .get-body-p{
-        color: rgba(255, 255, 255, 0.65);
+        color: white;
         font-size: 20px;
         line-height: 30px;
 }
 .get-body-pic{
         width: 400px;
 }
+
 .btn{
         justify-content: center;
-        margin-bottom: 10px;
+        
 }
 .btn-primary-club{
         background-color:rgba(230, 83, 60, 1) ;
@@ -172,6 +177,30 @@
         font-size: 13px;
         line-height: 10px;
         color: rgb(255, 255, 255, 1);
+}
+/* main */
+.change-part{
+        display: flex;
+        justify-content: center;
+       
+}
+.change-text{
+        width: 670px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+}
+.change-h1{
+        font-size: 48px;
+        font-weight: 900px;
+        line-height: 20px;
+        
+}
+.change-p{
+        font-size: 15px;
+        font-weight: 400px;
+        line-height: 15px;
+        
 }
 /* resposive */
 @media screen and (max-width:576px) {
