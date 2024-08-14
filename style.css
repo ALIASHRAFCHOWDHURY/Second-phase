@@ -22,6 +22,9 @@
         font-optical-sizing: 36px;
         font-weight: 800;
 }
+.color{
+        background-color: #111111;
+}
 /* shared style */
 .display-flex{
         display: flex;
@@ -38,8 +41,9 @@
         margin: 0px 10px;
         font-size: 15px;
         font-weight: 600;
-        color: rgb(145, 143, 143);
-        border: 0px solid black;
+        color: rgb(255, 255, 255);
+        background-color: #111111;
+        border: 1px solid rgb(255, 255, 255);
 }
 
 /* header first section */
@@ -48,6 +52,8 @@
 }
 .fit{
         color: rgba(230, 83, 60, 1);
+        font-weight: 800;
+        font-size: 26px;
 }
 .header-title{
         justify-content: center;
@@ -83,8 +89,15 @@
         visibility: hidden;
 }
 /* header second section */
+.full-banner{
+        justify-content: center;
+}
+.banner{
+        width: 1100px;
+        justify-content: space-between;
+}
 .get-body{
-        border: 1px solid black;
+        
         width: 600px;
 }
 .get-body-text{
@@ -97,6 +110,14 @@
         font-size:  58px;
         font-weight: 400;
         
+}
+.get-body-p{
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 20px;
+        line-height: 30px;
+}
+.get-body-pic{
+        width: 400px;
 }
 .btn{
         justify-content: center;
@@ -111,4 +132,44 @@
         font-weight: 600;
         color: rgba(255, 255, 255, 1);
         border: 0px solid black;
+}
+.card-01{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background-color:rgba(48, 48, 48, 0.54);
+        border-radius: 10px;
+        width:116px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        top: -450px; /* Adjusts the vertical position */
+        left: 230px; 
+}
+.card-02{
+        border: 1px solid rgba(255, 254, 254, 0.1);
+        background-color:rgba(48, 48, 48, 0.54);
+        border-radius: 10px;
+        width:146px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        top: -250px; /* Adjusts the vertical position */
+        right: 30px;
+}
+.card-img1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.card-h{
+        font-size: 40px;
+        font-weight: 900px;
+        line-height: 20px;
+        margin: 5px;
+        color: rgb(255, 255, 255, 1);
+}
+.card-p{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 10px;
+        color: rgb(255, 255, 255, 1);
 }
