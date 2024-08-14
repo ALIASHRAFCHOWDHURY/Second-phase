@@ -1,3 +1,6 @@
+body{
+        overflow-x: hidden;
+}
 .font-style-italic{
         font-family: 'Miama';
         font-style: italic;
@@ -547,12 +550,8 @@ hr{
 
 /* resposive */
 @media screen and (max-width:576px) {
-        .nav-bar{
-                background-color: linear-gradient(180deg, rgba(17, 17, 17, 0.8) 0%, rgba(3, 3, 3, 0.3) 100%);;
-        
-        }
         .nav-item{
-                width: 100%;
+                width: 80%;
                 justify-content: center;
         }
         .nav-links{
@@ -563,6 +562,7 @@ hr{
         }
         .banner{
                 flex-direction: column;
+                padding: 10px;
         }
         .get-body{
                 width: 100%;
