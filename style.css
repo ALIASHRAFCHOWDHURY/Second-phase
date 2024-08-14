@@ -49,7 +49,7 @@
 /* header first section */
 .nav-bar{
         background: linear-gradient(180deg, rgba(17, 17, 17, 0.8) 0%, rgba(3, 3, 3, 0.3) 100%);;
-        
+        height: 665px;
 
 }
 .fit{
@@ -238,9 +238,147 @@
         color: rgb(255, 255, 255, 1);
         text-align: center;
 }
+.run-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       
+}
+.run-part{
+        width: 1050px;
+        border-radius: 15px;
+        background-color: rgba(34, 34, 34, 1);
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        
+}
+.run-text{
+       width: 440px;
+}
+.run-h{
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 57px;
+        color: rgb(255, 255, 255, 1);
+}
+.run-p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(255, 255, 255, 1);
+}
+.run-img{
+        width: 368px;
+}
+.home-workout-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       
+}
+.home-workout-part{
+        width: 1050px;
+        border-radius: 15px;
+        background-color: rgba(34, 34, 34, 1);
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        
+}
+.home-workout-text{
+       width: 340px;
+}
+.home-workout-h{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 57px;
+        color: rgb(255, 255, 255, 1);
+}
+.home-workout-p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(255, 255, 255, 1);
+}
+.home-workout-img{
+        width: 368px;
+        border-radius: 20px;
+}
+.change2-part{
+        display: flex;
+        justify-content: center;      
+       
+}
+.change2-text{
+        width: 670px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 80px;
+
+}
+.change2-h1{
+        font-size: 48px;
+        font-weight: 900px;
+        line-height: 40px;
+        
+}
+.change2-p{
+        font-size: 15px;
+        font-weight: 400px;
+        line-height: 15px;
+        
+}
+.change3-part{
+        display: flex;
+        justify-content: center;      
+       
+}
+.change3-text{
+        width: 670px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 80px;
+
+}
+.change3-h1{
+        font-size: 48px;
+        font-weight: 900px;
+        line-height: 40px;
+        
+}
+.change3-p{
+        font-size: 15px;
+        font-weight: 400px;
+        line-height: 15px;
+        
+}
+.team-container{
+       display: flex;
+       justify-content:  center;
+}
+.team-part{
+        border: 1px solid rgb(255, 255, 255, 1);
+        width: 1080px;
+        border-radius: 15px;
+        padding: 15px;
+        background-color:rgba(34, 34, 34, 1) ;
+}
+.team1-img{
+        width: 320px;
+}
+.team-box{
+        border: 1px solid rgb(255, 255, 255, 1);
+        padding: 5px;
+        width: 321px;
+}
+
 /* resposive */
 @media screen and (max-width:576px) {
+        .nav-bar{
+                background-color: linear-gradient(180deg, rgba(17, 17, 17, 0.8) 0%, rgba(3, 3, 3, 0.3) 100%);;
         
+        }
         .nav-item{
                 width: 100%;
                 justify-content: center;
@@ -256,28 +394,60 @@
         }
         .get-body{
                 width: 100%;
+                padding-bottom: 20px ;
                 
         }
         .get-body-pic{
                 width: 100%;
                 display: flex;
                 justify-content: center;
+                background-color: #646262;
+                
                 
         }
+        
         .change-part{
-                width: 100%;      
+                width: 100%;
+                margin-top: 800px;      
         }
         .change-h1{
                 line-height: 55px; 
-        }
-        .change-last-part{
-        
         }
         .change-img{
                 display: grid;
                 grid-template-columns: repeat(1,1fr);
                 gap: 15px;
                width: 50%;
+        }
+        .run-part{
+                flex-direction: column;
+                margin: 10px;
+        }
+        .run-text{
+                width:100%;
+        }
+        .run-img{
+                margin: 40px;
+        }
+        .home-workout-part{
+                flex-direction: column;
+                margin: 10px;
+        }
+        .home-workout-text{
+                width:100%;
+        }
+        .home-workout-img{
+                margin: 40px;
+        }
+        .team-part{
+                flex-direction: column;
+                margin: 10px;
+        }
+        .team-text{
+                width:100%;
+        }
+        .team-img{
+                margin: 40px;
         }
 
         
