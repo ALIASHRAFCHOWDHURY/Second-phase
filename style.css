@@ -490,6 +490,61 @@ table {
 .cal-btn{
         margin-top: 30px;
 }
+
+/* footer partl */
+.footer-container{
+       
+}
+.footer-part{
+        padding: 15px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+
+}
+.footer-box-1{
+       
+        width: 450px;
+}
+.footer-box-2{
+       
+        width: 380px;
+}
+.footer-box-3{
+       
+        width: 380px;
+}
+.footer-fit{
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 54px;
+        color:rgba(230, 83, 60, 1);
+        ;
+
+}
+.footer-p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27.6px;
+        color:rgba(255, 255, 255, 0.5);
+        ;
+
+}
+hr{
+        width: 1059.5px;
+        border: 2px 0px 0px 0px;
+        border: 2px solid rgba(255, 255, 255, 0.1)
+        
+}
+.copyright{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;     
+}
+
 /* resposive */
 @media screen and (max-width:576px) {
         .nav-bar{
@@ -592,6 +647,10 @@ table {
                 border-radius: 8px;
                 margin: 5px;
           }
+          .footer-part{
+                display: flex;
+                flex-direction: column;
+        }
         
 
 }
