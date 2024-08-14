@@ -594,22 +594,24 @@ hr{
         .run-part{
                 flex-direction: column;
                 margin: 10px;
+                width: 80%;
         }
         .run-text{
                 width:100%;
         }
         .run-img{
-                margin: 40px;
+                margin: 10px;
         }
         .home-workout-part{
                 flex-direction: column;
                 margin: 10px;
+                width: 80%;
         }
         .home-workout-text{
                 width:100%;
         }
         .home-workout-img{
-                margin: 40px;
+                margin: 10px;
         }
         .team-part{
                 width: 67%;
