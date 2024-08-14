@@ -358,21 +358,138 @@
        justify-content:  center;
 }
 .team-part{
-        border: 1px solid rgb(255, 255, 255, 1);
         width: 1080px;
         border-radius: 15px;
         padding: 15px;
         background-color:rgba(34, 34, 34, 1) ;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
 }
 .team1-img{
         width: 320px;
+        border-radius: 15px;
 }
 .team-box{
-        border: 1px solid rgb(255, 255, 255, 1);
         padding: 5px;
         width: 321px;
 }
+.team-name{
+        position: relative;
+        top: -70px;
+        left: 10px;
+}
+.team-name-h{
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 10px;
+        color: rgb(255, 255, 255, 1);
+}
+.team-name-p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 10px;
+        color: rgb(255, 255, 255, 1);
+}
+.change4-part{
+        display: flex;
+        justify-content: center;      
+       margin-bottom:30px ;
+}
+.change4-text{
+        width: 670px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 80px;
 
+}
+.change4-h1{
+        font-size: 48px;
+        font-weight: 900px;
+        line-height: 40px;
+        
+}
+.change4-p{
+        font-size: 15px;
+        font-weight: 400px;
+        line-height: 15px;
+        
+}
+.bmi-container{
+        border-top: 1px solid rgb(255, 255, 255, 1);
+        border-bottom: 1px solid rgb(255, 255, 255, 1);
+        background-color:rgba(34, 34, 34, 1)
+        
+}
+
+
+.bmi-chart{
+        width: 450px;
+        
+}
+/* table styles */
+table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 310px;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #fdfafa;
+ }
+ .bmi{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px;
+ }
+ .bmi-part-one{
+        width: 450px;
+        
+ }
+ .cal-top-h{
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 33.6px;
+        color:rgb(255, 255, 255, 1);
+ }
+  .cal-top-p{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color:rgb(255, 255, 255, 1);
+  }
+  .bmi-part-two{
+        width: 650px;
+       
+  }
+  .input-one{
+        width: 280px;
+        padding: 10px;
+        border-radius: 8px;
+        margin: 5px;
+  }
+  .input-two{
+        width: 280px;
+        padding: 10px;
+        border-radius: 8px;
+        margin: 5px;
+  }
+  .input-three{
+        width: 600px;
+        padding: 10px;
+        border-radius: 8px;
+        margin: 5px;
+  }
+.cal-btn{
+        margin-top: 30px;
+}
 /* resposive */
 @media screen and (max-width:576px) {
         .nav-bar{
@@ -440,16 +557,41 @@
                 margin: 40px;
         }
         .team-part{
+                width: 67%;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .bmi{
+                display: flex;
                 flex-direction: column;
-                margin: 10px;
-        }
-        .team-text{
-                width:100%;
-        }
-        .team-img{
-                margin: 40px;
-        }
-
+                justify-content: center;        
+         }
+         .bmi-part-one{
+                width: 290px;
+                
+         }
+         .bmi-part-two{
+                width: 390px;
+               
+          }
+          .input-one{
+                width: 140px;
+                padding: 10px;
+                border-radius: 8px;
+                margin: 5px;
+          }
+          .input-two{
+                width: 140px;
+                padding: 10px;
+                border-radius: 8px;
+                margin: 5px;
+          }
+          .input-three{
+                width: 320px;
+                padding: 10px;
+                border-radius: 8px;
+                margin: 5px;
+          }
         
 
 }
