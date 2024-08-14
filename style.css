@@ -153,7 +153,7 @@
         text-align: center;
         position: relative;
         top: -250px; /* Adjusts the vertical position */
-        right: 30px;
+        right: 70px;
 }
 .card-img1{
         display: flex;
@@ -172,4 +172,30 @@
         font-size: 13px;
         line-height: 10px;
         color: rgb(255, 255, 255, 1);
+}
+/* resposive */
+@media screen and (max-width:576px) {
+        .nav-item{
+                width: 100%;
+                justify-content: center;
+        }
+        .nav-links{
+                visibility: hidden;
+        }
+        .menu-bar{
+                visibility: visible;    
+        }
+        .banner{
+                flex-direction: column;
+        }
+        .get-body{
+                width: 100%;
+                
+        }
+        .get-body-pic{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                
+        }
 }
