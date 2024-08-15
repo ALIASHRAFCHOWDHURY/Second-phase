@@ -620,8 +620,74 @@ hr{
         }
             .card-h {
                 font-size: 24px;
-            }
+        }
             .card-p {
                 font-size: 12px;
+        }
+
+        /* change part */
+        .change-text {
+                width: 100%;
+                padding: 0 20px;
+                margin-top: 40px;
             }
+            .change-h1 {
+                font-size: 32px;
+                line-height: 40px;
+            }
+            .change-p {
+                font-size: 14px;
+                line-height: 20px;
+                
+            }
+            .change-img {
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+                margin-top: 20px;
+                padding: 0 10px;
+            }
+            .box-1 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .box-1-img {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+            .box-1-h {
+                font-size: 16px;
+            }
+            .box-1-p {
+                font-size: 12px;
+            }
+        /* run part responsive */
+        .run-container {
+                margin-top: 30px;
+            }
+            .run-part {
+                width: 80%;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+            .run-text {
+                width: 100%;
+                padding: 0 20px;
+                text-align: center;
+            }
+            .run-h {
+                font-size: 32px;
+                line-height: 40px;
+            }
+            .run-p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+            .run-img {
+                width: 240px;
+                margin-top: 10px
+                             
+        }
+
 }
