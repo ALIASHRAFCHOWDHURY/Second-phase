@@ -1,6 +1,3 @@
-body{
-        overflow-x: hidden;
-}
 .font-style-italic{
         font-family: 'Miama';
         font-style: italic;
@@ -495,9 +492,6 @@ table {
 }
 
 /* footer partl */
-.footer-container{
-       
-}
 .footer-part{
         padding: 15px;
         padding-top: 50px;
@@ -549,110 +543,85 @@ hr{
 }
 
 /* resposive */
-@media screen and (max-width:576px) {
-        .nav-item{
-                width: 80%;
-                justify-content: center;
+@media (max-width: 576px) {
+        /* navbar resposive */
+        .nav-bar {
+            height: auto;
+            padding: 20px;
         }
-        .nav-links{
-                visibility: hidden;
+        .fit {
+            font-size: 20px;
         }
-        .menu-bar{
-                visibility: visible;    
+        .nav-item {
+            
+            align-items: center;
+            width: 100%;
         }
-        .banner{
-                flex-direction: column;
-                padding: 10px;
+        .nav-links {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            visibility: hidden;
         }
-        .get-body{
+        .nav-link {
+            margin: 10px 0;
+            text-align: center;
+            
+        }
+        .nav-link-home {
+            padding: 8px 20px;
+        }
+        .menu-bar {
+            visibility: visible;
+            display: block;
+            text-align: right;
+            padding: 10px;
+        }
+        /* banner section resposive */
+        .banner {
                 width: 100%;
-                padding-bottom: 20px ;
-                
-        }
-        .get-body-pic{
+                flex-direction: column;
+                align-items: center;
+            }
+            .get-body {
                 width: 100%;
-                display: flex;
-                justify-content: center;
-                background-color: #646262;
-                
-                
-        }
-        
-        .change-part{
+                padding: 0 20px;
+            }
+            .get-body-text {
+                font-size: 32px;
+                line-height: 45px;
+                text-align: center;
+            }
+            .get-body-shape {
+                font-size: 32px;
+                text-align: center;
+            }
+            .get-body-p {
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+            }
+            .get-body-pic {
                 width: 100%;
-                margin-top: 800px;      
+                max-width: 300px;
+                margin: 20px auto;
+            }
+            .btn-primary-club {
+                padding: 12px 30px;
+                margin: 10px 0;
+                font-size: 14px;
+            }
+        .card-01{
+                left: 180px;
         }
-        .change-h1{
-                line-height: 55px; 
+        .card-02{
+                right: 30px;
         }
-        .change-img{
-                display: grid;
-                grid-template-columns: repeat(1,1fr);
-                gap: 15px;
-               width: 50%;
-        }
-        .run-part{
-                flex-direction: column;
-                margin: 10px;
-                width: 80%;
-        }
-        .run-text{
-                width:100%;
-        }
-        .run-img{
-                margin: 10px;
-        }
-        .home-workout-part{
-                flex-direction: column;
-                margin: 10px;
-                width: 80%;
-        }
-        .home-workout-text{
-                width:100%;
-        }
-        .home-workout-img{
-                margin: 10px;
-        }
-        .team-part{
-                width: 67%;
-                display: grid;
-                grid-template-columns: repeat(1,1fr);
-        }
-        .bmi{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;        
-         }
-         .bmi-part-one{
-                width: 290px;
-                
-         }
-         .bmi-part-two{
-                width: 390px;
-               
-          }
-          .input-one{
-                width: 140px;
-                padding: 10px;
-                border-radius: 8px;
-                margin: 5px;
-          }
-          .input-two{
-                width: 140px;
-                padding: 10px;
-                border-radius: 8px;
-                margin: 5px;
-          }
-          .input-three{
-                width: 320px;
-                padding: 10px;
-                border-radius: 8px;
-                margin: 5px;
-          }
-          .footer-part{
-                display: flex;
-                flex-direction: column;
-        }
-        
-
+            .card-h {
+                font-size: 24px;
+            }
+            .card-p {
+                font-size: 12px;
+            }
 }
