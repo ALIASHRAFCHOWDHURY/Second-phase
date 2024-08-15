@@ -689,5 +689,97 @@ hr{
                 margin-top: 10px
                              
         }
+        /* work out home part */
+        .home-workout-container {
+                margin-top: 30px;
+        }
+            .home-workout-part {
+                width: 80%;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+        }
+            .home-workout-text {
+                width: 100%;
+                padding: 0 20px;
+        }
+            .home-workout-h {
+                font-size: 24px;
+                line-height: 32px;
+        }
+            .home-workout-p {
+                font-size: 13px;
+                line-height: 20px;
+        }
+            .home-workout-img {
+                width: 100%;
+                max-width: 300px;
+                margin-top: 20px;
+        }
+        /* team part  */
 
+        .team-part {
+                width: 80%;
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+            .team1-img {
+                width: 100%;
+                max-width: 280px;
+                margin: 0 auto;
+            }
+            .team-box {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .team-name-h {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .team-name-p {
+                font-size: 12px;
+                line-height: 16px;
+        }
+        /* bmi part */
+        .bmi {
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+            .bmi-part-one, .bmi-part-two {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .bmi-chart {
+                width: 100%;
+                max-width: 320px;
+                margin: 0 auto;
+            }
+            table {
+                width: 100%;
+                max-width: 320px;
+            }
+            .cal-top-h {
+                font-size: 22px;
+                line-height: 28px;
+            }
+            .cal-top-p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+            .input-one {
+                width: 38%;
+                
+            }
+            .input-two{
+                width: 38%;
+                
+            }
+            .input-three {
+                width: 88%;
+                max-width: 300px;
+            }
+            .cal-btn {
+                margin-top: 20px;
+            }
 }
